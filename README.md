@@ -87,7 +87,7 @@ The dataset contains 588,101 records with six key variables. Below is a brief da
   - **`converted`:** The overall conversion rate was higher in the 'ad' group (2.5%) than in the 'psa' group (1.7%).
   - **`total ads`:** Distribution was positively skewed, with some users being heavily exposed to ads.
 
-![Test Group Distribution](#) <!-- Placeholder for test group distribution bar chart -->
+![Test Group Distribution](images/test_group_dist.png)
 *Bar chart showing the distribution of the `test group` variable, highlighting the imbalance between the 'ad' and 'psa' groups.*
 
 ### **Bivariate Analysis**
@@ -96,10 +96,10 @@ The dataset contains 588,101 records with six key variables. Below is a brief da
   - **Conversion Rates:** Higher in the 'ad' group compared to the 'psa' group.
   - **Total Ads vs. Conversion:** Users who converted typically saw more ads.
   
-![Conversion Rates](#) <!-- Placeholder for conversion rates bar chart -->
+![Conversion Rates](images/conversion-rates-by-test-group.png) <!-- Placeholder for conversion rates bar chart -->
 *Bar chart comparing conversion rates between the 'ad' and 'psa' groups.*
 
-![Total Ads vs. Conversion](#) <!-- Placeholder for total ads vs. conversion box plot -->
+![Total Ads vs. Conversion](images/converted-dist.png) <!-- Placeholder for total ads vs. conversion box plot -->
 *Box plot showing the distribution of `total ads` for converted versus non-converted users.*
 
 ---
@@ -115,8 +115,8 @@ The dataset contains 588,101 records with six key variables. Below is a brief da
 2. **Fisher's Exact Test** – Confirmed the significance with an odds ratio of 0.693 (p-value ≈ 1.05e-14).
 3. **Logistic Regression** – Quantified the impact, indicating users in the 'ad' group were 1.48 times more likely to convert.
 
-![Statistical Test Summary](#) <!-- Placeholder for statistical test results table -->
-*Table summarizing key results from chi-squared, Fisher's Exact Test, and logistic regression.*
+<!![Statistical Test Summary](#) <!-- Placeholder for statistical test results table -->
+*Table summarizing key results from chi-squared, Fisher's Exact Test, and logistic regression.*!>
 
 ---
 
@@ -127,10 +127,6 @@ The dataset contains 588,101 records with six key variables. Below is a brief da
 - **Relative Risk (RR):** 1.431 – Users in the ad group are 43.1% more likely to convert.
 - **Number Needed to Treat (NNT):** 130 – Number of users needed to expose to ads to achieve one additional conversion.
 - **Attributable Risk Percent:** 30.11% – Percentage of conversions in the 'ad' group attributable to the ads.
-
-### **Visualizing the Impact**
-![ARR and RR Visualization](#) <!-- Placeholder for visualization of ARR and RR -->
-*Graph showing the relationship between Absolute Risk Reduction (ARR) and Relative Risk (RR) for the ad group.*
 
 ---
 
@@ -148,25 +144,4 @@ The dataset contains 588,101 records with six key variables. Below is a brief da
 ---
 
 
-## **Visualizations**
-
-### **1. Data Cleaning Process**
-*Image Placeholder*
-
-### **2. Test Group Distribution**
-*Bar Chart Placeholder*
-
-### **3. Conversion Rate Comparison**
-*Bar Chart Placeholder*
-
-### **4. Total Ads vs. Conversion**
-*Box Plot Placeholder*
-
-### **5. Statistical Test Results**
-*Table Placeholder*
-
-### **6. Quantifying Ad Impact**
-*Graph Placeholder*
-
----
 
