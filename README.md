@@ -1,6 +1,7 @@
 # **A/B Testing Analysis: Data-Driven Insights for Marketing Campaign Optimization**
 
-![Project Banner](0001.png) <!-- Placeholder for an image banner -->
+
+<img src="images/0001.png" alt="AB Test Banner" width="600"/>
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
