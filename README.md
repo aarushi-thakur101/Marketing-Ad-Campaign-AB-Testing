@@ -1,10 +1,6 @@
-To adjust the size of the images in your README, you can use the HTML `<img>` tag with the `width` attribute. Here's the updated README with the adjusted image sizes using the HTML tags:
-
----
-
 # **A/B Testing Analysis: Data-Driven Insights for Marketing Campaign Optimization**
 
-![Project Banner](001.png) <!-- Placeholder for an image banner -->
+![Project Banner](0001.png) <!-- Placeholder for an image banner -->
 
 ## **Table of Contents**
 1. [Introduction](#introduction)
