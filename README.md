@@ -1,5 +1,4 @@
-# Marketing-Ad-Campaign-AB-Testing
-Here's a comprehensive README file tailored for your marketing A/B testing project. It is structured to be user-friendly, with placeholders for visuals, detailed explanations, and clear steps for others to follow. The format is designed to engage readers and make your analysis easy to understand.
+To adjust the size of the images in your README, you can use the HTML `<img>` tag with the `width` attribute. Here's the updated README with the adjusted image sizes using the HTML tags:
 
 ---
 
@@ -22,7 +21,7 @@ Here's a comprehensive README file tailored for your marketing A/B testing proje
 
 ## **Introduction**
 
-In this project, I  teamed up to conduct an A/B testing analysis to evaluate the effectiveness of a marketing ad campaign. The goal was to:
+In this project, I teamed up to conduct an A/B testing analysis to evaluate the effectiveness of a marketing ad campaign. The goal was to:
 1. Assess whether the ad campaign significantly impacted user conversions.
 2. Quantify the extent to which the success could be attributed to ad exposure.
 
@@ -87,7 +86,8 @@ The dataset contains 588,101 records with six key variables. Below is a brief da
   - **`converted`:** The overall conversion rate was higher in the 'ad' group (2.5%) than in the 'psa' group (1.7%).
   - **`total ads`:** Distribution was positively skewed, with some users being heavily exposed to ads.
 
-![Test Group Distribution](images/test_group_dist.png)
+<img src="images/test-group-dist.png" alt="Test Group Distribution" width="600"/>
+
 *Bar chart showing the distribution of the `test group` variable, highlighting the imbalance between the 'ad' and 'psa' groups.*
 
 ### **Bivariate Analysis**
@@ -96,10 +96,12 @@ The dataset contains 588,101 records with six key variables. Below is a brief da
   - **Conversion Rates:** Higher in the 'ad' group compared to the 'psa' group.
   - **Total Ads vs. Conversion:** Users who converted typically saw more ads.
   
-![Conversion Rates](images/conversion-rates-by-test-group.png) <!-- Placeholder for conversion rates bar chart -->
+<img src="images/conversion-rates-by-test-group.png" alt="Conversion Rates" width="600"/>
+
 *Bar chart comparing conversion rates between the 'ad' and 'psa' groups.*
 
-![Total Ads vs. Conversion](images/converted-dist.png) <!-- Placeholder for total ads vs. conversion box plot -->
+<img src="images/converted-dist.png" alt="Total Ads vs Conversion" width="600"/>
+
 *Box plot showing the distribution of `total ads` for converted versus non-converted users.*
 
 ---
@@ -115,8 +117,8 @@ The dataset contains 588,101 records with six key variables. Below is a brief da
 2. **Fisher's Exact Test** – Confirmed the significance with an odds ratio of 0.693 (p-value ≈ 1.05e-14).
 3. **Logistic Regression** – Quantified the impact, indicating users in the 'ad' group were 1.48 times more likely to convert.
 
-<!![Statistical Test Summary](#) <!-- Placeholder for statistical test results table -->
-*Table summarizing key results from chi-squared, Fisher's Exact Test, and logistic regression.*!>
+<!-- Placeholder for statistical test results table -->
+
 
 ---
 
